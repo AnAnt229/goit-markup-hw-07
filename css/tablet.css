@@ -1,0 +1,22 @@
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+
+  .whatwedo {
+    display: none;
+  }
+
+  .features-list {
+    display: flex;
+    min-width: 356px;
+    height: 120px;
+    flex-wrap: wrap;
+    gap: 24px 72px;
+    flex-direction: column;
+  }
+
+  .features-subtitle {
+    text-align: left;
+  }
+}

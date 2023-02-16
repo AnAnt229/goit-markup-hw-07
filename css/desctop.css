@@ -1,0 +1,21 @@
+@media screen and (max-width: 1199px) {
+  .feature-icon-box {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .container {
+    max-width: 1200px;
+  }
+
+  .features-list {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 24px;
+  }
+
+  .features-subtitle {
+    text-align: left;
+  }
+}

@@ -1,6 +1,11 @@
-@media screen and (max-width: 1199px) {
+/* @media screen and (max-width: 1199px) {
   .feature-icon-box {
     display: none;
+  }
+
+  .section {
+    padding-top: 120px;
+    padding-bottom: 120px;
   }
 }
 
@@ -18,4 +23,4 @@
   .features-subtitle {
     text-align: left;
   }
-}
+} */

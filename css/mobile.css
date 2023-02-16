@@ -1,9 +1,28 @@
 @media screen and (max-width: 480px) {
   .container {
-    max-width: 448px;
+    max-width: 396px;
   }
 
   .whatwedo {
     display: none;
   }
+    .features-subtitle{
+      text-align: center;
+    }
+
+        .ourteam-item{
+          width: 260px;
+          margin-left: auto;
+          margin-right: auto;
+        }
+
+        .feature-icon-box{
+          display: none;
+        }
+                .customers-item {
+                  /* flex-basis: calc((100% - 5 * 24px) / 6); */
+                  /* width: 50%; */
+                  margin: 8px;
+                  flex-basis: calc((100% - 32px)/2);
+                }
 }

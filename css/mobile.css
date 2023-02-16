@@ -9,7 +9,13 @@
     .features-subtitle{
       text-align: center;
     }
+.header-list{
+  display: none;
+}
 
+.header-address {
+  display: none;
+}
         .ourteam-item{
           width: 260px;
           margin-left: auto;

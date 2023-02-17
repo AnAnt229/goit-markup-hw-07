@@ -1,34 +1,49 @@
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
+  /* <!-- general style --> */
+
   .container {
-    max-width: 396px;
+    max-width: 428px;
   }
 
-  .whatwedo {
-    display: none;
+  /* <!-- modal style --> */
+
+  .modal {
+    width: 408px;
   }
-    .features-subtitle{
-      text-align: center;
-    }
-.header-list{
-  display: none;
-}
 
-.header-address {
-  display: none;
-}
-        .ourteam-item{
-          width: 260px;
-          margin-left: auto;
-          margin-right: auto;
-        }
+  /* <!-- header style --> */
 
-        .feature-icon-box{
-          display: none;
-        }
-                .customers-item {
-                  /* flex-basis: calc((100% - 5 * 24px) / 6); */
-                  /* width: 50%; */
-                  margin: 8px;
-                  flex-basis: calc((100% - 32px)/2);
-                }
+  .header-mob-item:not(:last-child) {
+    margin-bottom: 40px;
+  }
+
+  .header-mob-link {
+    font-size: 36px;
+  }
+
+  .header-mob-address {
+    margin-bottom: 48px;
+  }
+
+  .header-mob-address-list {
+    gap: 40px;
+  }
+
+  .header-mob-address-item {
+    flex-basis: calc((100% - 40px) / 2);
+  }
+
+  .header-mob-tel {
+    font-size: 36px;
+  }
+
+  .header-mob-mail {
+    font-size: 20px;
+  }
+
+  .header-mob-soc-list {
+    gap: 56px;
+  }
+
+  /* <!-- main style --> */
 }
